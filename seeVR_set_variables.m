@@ -2,9 +2,9 @@
 function [dirs, files] = seeVR_set_variables(  )
 
 %% Specify the directories of the toolbox here
-dirs.seeVR     = 'E:\seeVR-main\'; %specify toolbox path with trailing slash
+dirs.seeVR     = 'C:\Users\abhogal\MATLAB\Projects\seeVR'; %specify toolbox path with trailing slash
 
-dirs.elastix   = fullfile(dirs.seeVR,'elastix'); 
+dirs.elastix   = 'C:\Users\abhogal\MATLAB\Projects\seeVR_GUI\functions\elastix'; 
 addpath(genpath(dirs.seeVR));
 
 %% Specify tags used to identify folders

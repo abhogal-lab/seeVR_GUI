@@ -2,7 +2,7 @@
 function [seeVR elastix] = seeVR_set_variables(  )
 
 %% Specify the directories of the toolbox here
-seeVR     = 'E:\seeVR-main\'; %specify toolbox path with trailing slash
+seeVR     = 'C:\Users\abhogal\MATLAB\Projects\seeVR'; %specify toolbox path with trailing slash
 seeVR = fullfile(seeVR);
 
 elastix   = 'C:\Users\abhogal\MATLAB\Projects\seeVR_GUI\functions\elastix'
